@@ -32,6 +32,8 @@
     color: #c74b54;
   }
 </style>
+<div style="max-width: 900px; margin: auto; padding: 20px;">
+
 
 <img src="logo.png" alt="Logo" class="custom-logo"/>
 ---
@@ -127,3 +129,4 @@ Power BI dashboard for tracking payments, sales, and revenue performance.
 ## 📬 Contact
 
 📫 Connect with me on [LinkedIn](https://www.linkedin.com/in/lina-herasymenko)
+</div>
