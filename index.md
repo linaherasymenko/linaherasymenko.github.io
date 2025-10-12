@@ -1,4 +1,14 @@
 ---
+layout: home
+title: "Welcome"
+header:
+  overlay_image: /logo.png
+  overlay_filter: 0.2
+  caption: "Data Analyst Portfolio"
+---
+
+👋 Hello and welcome to my portfolio website!
+---
 layout: default
 title: Lina Herasymenko
 ---
