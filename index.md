@@ -3,14 +3,9 @@ layout: home
 author_profile: true
 title: "Hi 👋 I'm Lina"
 header:
-  overlay_color: "#b76e79"
-  overlay_image: none
+  overlay_color: "#5e1a1a"
   caption: "Data Analyst Portfolio"
 ---
-
-<p align="center">
-  <img src="logo.png" alt="Lina Herasymenko logo" width="160"/>
-</p>
 
 I’m a **Data Analyst** passionate about turning data into stories and interactive dashboards.  
 My focus is on **data visualization, reporting, and delivering insights** that support decision making.
@@ -35,19 +30,6 @@ My focus is on **data visualization, reporting, and delivering insights** that s
 - 💳 [Sales Dashboard – Power BI](https://github.com/linaherasymenko/Sales-Payment-Analysis-Dashboard-Power-BI-)
 
 ---
-
-## 🌱 Currently Learning
-
-- Advanced Power BI  
-- English for Data Analytics  
-
----
-
-## 📬 Contact
-
-📧 [LinkedIn](https://www.linkedin.com/in/lina-herasymenko)  
-💻 [GitHub](https://github.com/linaherasymenko)
-
 
 ### 🧪 A/B Test Case Study  
 ![Test Results](https://github.com/linaherasymenko/ab-test-discount-subscription/blob/main/test_results.png?raw=true)  
@@ -97,15 +79,15 @@ Created a Looker Studio dashboard for analyzing funnel drop-offs and conversions
 Power BI dashboard for tracking payments, sales, and revenue performance.  
 **Tools:** Power BI
 
-
-
-
 ---
 
-### 🌱 Currently Learning
+## 🌱 Currently Learning
+
 - Advanced Power BI  
 - English for Data Analytics  
 
 ---
+
+## 📬 Contact
 
 📫 Connect with me on [LinkedIn](https://www.linkedin.com/in/lina-herasymenko)
