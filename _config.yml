@@ -1,5 +1,27 @@
-title: Lina Herasymenko
-description: > 
-  Data Analyst Portfolio | Dashboards | Power BI | Tableau | SQL
-theme: jekyll-theme-cayman
+title: "Lina Herasymenko"
 logo: /logo.png
+description: "Data Analyst Portfolio | Dashboards | Power BI | Tableau | SQL"
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "warm"  # теплі кольори, можна змінити на "contrast", "air", "sunrise"
+locale: "en-US"
+url: "https://linaherasymenko.github.io"
+baseurl: ""
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-include-cache
+
+author:
+  name: "Lina Herasymenko"
+  avatar: "/logo.png"
+  bio: "Data Analyst passionate about data storytelling, dashboards and analytics"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/lina-herasymenko"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/linaherasymenko"
+
+# Optional - Google Analytics, comments, etc.
