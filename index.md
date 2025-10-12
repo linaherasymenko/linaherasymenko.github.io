@@ -1,14 +1,14 @@
 ---
 layout: home
 title: "Hi there 👋 I'm Lina"
-excerpt: "Portfolio: Power BI, Tableau, SQL, Looker Studio & Dashboards"
+excerpt: "Data Analyst Portfolio – Dashboards, Tableau, Power BI, SQL"
 author_profile: true
 header:
   overlay_color: "#5e1a1a"
   caption: "Data Analyst Portfolio"
 ---
 
-I'm a **Data Analyst** passionate about turning data into stories and interactive dashboards.  
+I’m a **Data Analyst** passionate about turning data into stories and interactive dashboards.  
 My focus is on **data visualization, reporting, and delivering insights** that support decision making.
 
 ---
@@ -18,13 +18,67 @@ My focus is on **data visualization, reporting, and delivering insights** that s
 - **Tableau & Looker Studio** – interactive dashboards, visual storytelling  
 - **Power BI** – business reporting & performance tracking  
 - **Google Sheets & Excel** – data cleaning, automation, reporting  
-- **BigQuery & SQL** – data extraction and analysis  
+- **BigQuery & SQL** – data extraction and transformation  
 
 ---
 
 ## 📊 Featured Projects
 
-{% include feature_row id="projects" %}
+- 📊 [A/B Test Case Study](https://github.com/linaherasymenko/ab-test-discount-subscription)  
+- 📈 [Revenue Dashboard – Tableau](https://github.com/linaherasymenko/tableau-revenue-analysis-dashboard)  
+- 📉 [User Activity – Google Sheets](https://github.com/linaherasymenko/user-retention-activity-analysis)  
+- 🛒 [E-commerce Funnel – Looker + BigQuery](https://github.com/linaherasymenko/E-commerce-Conversion-Analysis-Looker-Studio-BigQuery-)  
+- 💳 [Sales Dashboard – Power BI](https://github.com/linaherasymenko/Sales-Payment-Analysis-Dashboard-Power-BI-)
+
+---
+
+### 🧪 A/B Test Case Study  
+![Test Results](https://github.com/linaherasymenko/ab-test-discount-subscription/blob/main/test_results.png?raw=true)  
+*Figure 1: Conversion rates — treatment group had 2.8% higher conversions (8.9% vs 6.1%).*
+
+🔗 [View Project on GitHub](https://github.com/linaherasymenko/ab-test-discount-subscription)  
+Analyzed the impact of a 50% discount on user conversions using Python and statistical methods (t-test, chi-squared).  
+**Tools:** Python, Tableau, Stats
+
+---
+
+### 📉 Revenue Analysis Dashboard – Tableau  
+![Revenue Analysis](https://github.com/linaherasymenko/tableau-revenue-analysis-dashboard/blob/main/revenue_new.png?raw=true)  
+*Figure 2: Tableau dashboard showing revenue trends by region and product category.*
+
+🔗 [View Project on GitHub](https://github.com/linaherasymenko/tableau-revenue-analysis-dashboard)  
+Interactive Tableau dashboard showing monthly revenue trends by region and category.  
+**Tools:** Tableau, Excel
+
+---
+
+### 📈 User Activity Analysis – Google Sheets  
+![User Activity](https://github.com/linaherasymenko/user-retention-activity-analysis/blob/main/weekly_dauwau_dynamics.png?raw=true)  
+*Figure 3: Weekly DAU/WAU dynamics and user retention in Google Sheets.*
+
+🔗 [View Project on GitHub](https://github.com/linaherasymenko/user-retention-activity-analysis)  
+Analyzed user retention and activity patterns using Google Sheets and custom formulas.  
+**Tools:** Google Sheets
+
+---
+
+### 🛒 E-commerce Funnel (Looker Studio + BigQuery)  
+![E-commerce Funnel](https://github.com/linaherasymenko/E-commerce-Conversion-Analysis-Looker-Studio-BigQuery-/blob/main/ecommerce_funnel.png?raw=true)  
+*Figure 4: Funnel performance from product view to purchase, broken by platform.*
+
+🔗 [View Project on GitHub](https://github.com/linaherasymenko/E-commerce-Conversion-Analysis-Looker-Studio-BigQuery-)  
+Created a Looker Studio dashboard for analyzing funnel drop-offs and conversions.  
+**Tools:** Looker Studio, BigQuery
+
+---
+
+### 💳 Sales & Payment Dashboard – Power BI  
+![Sales Dashboard](https://github.com/linaherasymenko/Sales-Payment-Analysis-Dashboard-Power-BI-/blob/main/sales_payment_power_BI.png?raw=true)  
+*Figure 5: Power BI dashboard tracking payment status and customer segments.*
+
+🔗 [View Project on GitHub](https://github.com/linaherasymenko/Sales-Payment-Analysis-Dashboard-Power-BI-)  
+Power BI dashboard for tracking payments, sales, and revenue performance.  
+**Tools:** Power BI
 
 ---
 
