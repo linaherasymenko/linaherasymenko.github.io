@@ -1,6 +1,6 @@
 title: "Lina Herasymenko"
-description: "Data Analyst Portfolio | Dashboards | Power BI | Tableau | SQL"
-remote_theme: mmistakes/minimal-mistakes
+description: "Data Analyst Portfolio | Power BI | Tableau | SQL"
+remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "contrast"
 locale: "en-US"
 url: "https://linaherasymenko.github.io"
@@ -10,6 +10,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-include-cache
+  - jekyll-remote-theme
 
 author:
   name: "Lina Herasymenko"
