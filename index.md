@@ -1,66 +1,53 @@
-<style>
-  .custom-logo {
-    position: absolute;
-    top: 10px;
-    left: 20px;
-    width: 60px;
-    z-index: 1000;
-  }
+---
+layout: home
+author_profile: true
+title: "Hi 👋 I'm Lina"
+header:
+  overlay_color: "#b76e79"
+  overlay_image: none
+  caption: "Data Analyst Portfolio"
+---
 
-  .page-header {
-    background: linear-gradient(to right, #5e2129, #a85c3d); /* бордовий+теплий */
-    color: #fff;
-  }
-
-  h1.project-name {
-    color: #fff !important;
-  }
-
-  h2.project-tagline {
-    color: #f9e9da !important;
-  }
-
-  body {
-    background-color: #fff8f3;
-  }
-
-  a {
-    color: #8b2c3a;
-  }
-
-  a:hover {
-    color: #c74b54;
-  }
-</style>
-
-
-
-
-# Hi there 👋 I'm Lina  
+<p align="center">
+  <img src="logo.png" alt="Lina Herasymenko logo" width="160"/>
+</p>
 
 I’m a **Data Analyst** passionate about turning data into stories and interactive dashboards.  
-My focus is on **data visualization, reporting, and delivering insights** that support decision making.  
+My focus is on **data visualization, reporting, and delivering insights** that support decision making.
 
 ---
 
-### 🔧 Skills
-- Tableau & Looker Studio (interactive dashboards, visual storytelling)  
-- Power BI (business reporting & performance tracking)  
-- Google Sheets & Excel (data cleaning, automation, reporting)  
-- BigQuery & SQL (for data preparation and analysis)  
+## 💼 Skills
+
+- **Tableau & Looker Studio** – interactive dashboards, storytelling  
+- **Power BI** – performance reports  
+- **Google Sheets & Excel** – automation, analysis  
+- **BigQuery & SQL** – data extraction and transformation  
 
 ---
-
 
 ## 📊 Featured Projects
 
-
-
 - 📊 [A/B Test Case Study](https://github.com/linaherasymenko/ab-test-discount-subscription)  
-- 🎯 [Revenue Analysis Dashboard – Tableau](https://github.com/linaherasymenko/tableau-revenue-analysis-dashboard)  
-- 📉 [User Activity Analysis – Google Sheets](https://github.com/linaherasymenko/user-retention-activity-analysis)  
-- 🛒 [E-commerce Funnel – BigQuery & Looker](https://github.com/linaherasymenko/E-commerce-Conversion-Analysis-Looker-Studio-BigQuery-)  
-- 💳 [Sales & Payment Dashboard – Power BI](https://github.com/linaherasymenko/Sales-Payment-Analysis-Dashboard-Power-BI-)
+- 📈 [Revenue Dashboard – Tableau](https://github.com/linaherasymenko/tableau-revenue-analysis-dashboard)  
+- 📉 [User Activity – Google Sheets](https://github.com/linaherasymenko/user-retention-activity-analysis)  
+- 🛒 [E-commerce Funnel – Looker + BigQuery](https://github.com/linaherasymenko/E-commerce-Conversion-Analysis-Looker-Studio-BigQuery-)  
+- 💳 [Sales Dashboard – Power BI](https://github.com/linaherasymenko/Sales-Payment-Analysis-Dashboard-Power-BI-)
+
+---
+
+## 🌱 Currently Learning
+
+- Advanced Power BI  
+- English for Data Analytics  
+
+---
+
+## 📬 Contact
+
+📧 [LinkedIn](https://www.linkedin.com/in/lina-herasymenko)  
+💻 [GitHub](https://github.com/linaherasymenko)
+
 
 ### 🧪 A/B Test Case Study  
 ![Test Results](https://github.com/linaherasymenko/ab-test-discount-subscription/blob/main/test_results.png?raw=true)  
