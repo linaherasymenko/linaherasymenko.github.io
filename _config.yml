@@ -2,7 +2,7 @@ title: "Lina Herasymenko"
 logo: /logo.png
 description: "Data Analyst Portfolio | Dashboards | Power BI | Tableau | SQL"
 theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "warm"  # теплі кольори, можна змінити на "contrast", "air", "sunrise"
+minimal_mistakes_skin:  "contrast"
 locale: "en-US"
 url: "https://linaherasymenko.github.io"
 baseurl: ""
@@ -24,4 +24,3 @@ author:
       icon: "fab fa-github"
       url: "https://github.com/linaherasymenko"
 
-# Optional - Google Analytics, comments, etc.
