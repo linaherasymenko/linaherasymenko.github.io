@@ -33,10 +33,6 @@
   }
 </style>
 
-<img src="logo.png" alt="Logo" class="custom-logo"/>
-<p align="center">
-  <img src="logo.png" alt="Lina Herasymenko logo" width="200"/>
-</p>
 
 
 
