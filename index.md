@@ -8,7 +8,7 @@
   }
 
   .page-header {
-    background: linear-gradient(to right, #5e2129, #a85c3d); /* бордовий+теплий */
+    background: linear-gradient(to right, #5e2129, #a85c3d);
     color: #fff;
   }
 
