@@ -1,4 +1,5 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <style>
   .custom-logo {
     position: absolute;
@@ -6,19 +7,6 @@
     left: 20px;
     width: 60px;
     z-index: 1000;
-  }
-
-  .page-header {
-    background: linear-gradient(to right, #5e2129, #a85c3d);
-    color: #fff;
-  }
-
-  h1.project-name {
-    color: #fff !important;
-  }
-
-  h2.project-tagline {
-    color: #f9e9da !important;
   }
 
   body {
@@ -33,10 +21,11 @@
     color: #c74b54;
   }
 </style>
-<div style="max-width: 900px; margin: auto; padding: 20px;">
-
 
 <img src="logo.png" alt="Logo" class="custom-logo"/>
+
+<div style="max-width: 900px; margin: auto; padding: 20px;">
+
 ---
 layout: home
 author_profile: true
@@ -130,4 +119,5 @@ Power BI dashboard for tracking payments, sales, and revenue performance.
 ## 📬 Contact
 
 📫 Connect with me on [LinkedIn](https://www.linkedin.com/in/lina-herasymenko)
+
 </div>
