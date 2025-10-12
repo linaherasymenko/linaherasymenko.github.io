@@ -4,10 +4,7 @@ description: >
 theme: jekyll-theme-cayman
 logo: /logo.png
 
-minimal_mistakes_skin: "default"
-header:
-  image: /logo.png
-  image_description: "Lina Herasymenko logo"
+
 
 # Додаткові налаштування
 title: "Lina Herasymenko"
