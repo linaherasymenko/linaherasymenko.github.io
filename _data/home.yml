@@ -1,0 +1,30 @@
+projects:
+  - image_path: https://github.com/linaherasymenko/ab-test-discount-subscription/blob/main/test_results.png?raw=true
+    alt: "A/B Test"
+    title: "🧪 A/B Test Case Study"
+    url: "https://github.com/linaherasymenko/ab-test-discount-subscription"
+    excerpt: "Analyzed 50% discount impact on conversion with Python, t-test, chi-squared."
+
+  - image_path: https://github.com/linaherasymenko/tableau-revenue-analysis-dashboard/blob/main/revenue_new.png?raw=true
+    alt: "Revenue Dashboard"
+    title: "📉 Tableau – Revenue Dashboard"
+    url: "https://github.com/linaherasymenko/tableau-revenue-analysis-dashboard"
+    excerpt: "Monthly revenue trends by region & category using Tableau."
+
+  - image_path: https://github.com/linaherasymenko/user-retention-activity-analysis/blob/main/weekly_dauwau_dynamics.png?raw=true
+    alt: "User Activity"
+    title: "📈 Google Sheets – User Retention"
+    url: "https://github.com/linaherasymenko/user-retention-activity-analysis"
+    excerpt: "Weekly DAU/WAU dynamics and retention insights via Google Sheets."
+
+  - image_path: https://github.com/linaherasymenko/E-commerce-Conversion-Analysis-Looker-Studio-BigQuery-/blob/main/ecommerce_funnel.png?raw=true
+    alt: "E-commerce Funnel"
+    title: "🛒 E-commerce Funnel – Looker & BigQuery"
+    url: "https://github.com/linaherasymenko/E-commerce-Conversion-Analysis-Looker-Studio-BigQuery-"
+    excerpt: "Dashboard for funnel drop-offs and conversion flow."
+
+  - image_path: https://github.com/linaherasymenko/Sales-Payment-Analysis-Dashboard-Power-BI-/blob/main/sales_payment_power_BI.png?raw=true
+    alt: "Power BI Dashboard"
+    title: "💳 Sales Dashboard – Power BI"
+    url: "https://github.com/linaherasymenko/Sales-Payment-Analysis-Dashboard-Power-BI-"
+    excerpt: "Payment tracking, revenue and segment overview via Power BI."
