@@ -2,3 +2,14 @@ title: Lina Herasymenko
 description: > 
   Data Analyst Portfolio | Dashboards | Power BI | Tableau | SQL
 theme: jekyll-theme-cayman
+logo: /logo.png
+
+minimal_mistakes_skin: "default"
+header:
+  image: /logo.png
+  image_description: "Lina Herasymenko logo"
+
+# Додаткові налаштування
+title: "Lina Herasymenko"
+name: "Lina Herasymenko"
+description: "Data Analyst Portfolio"
