@@ -1,3 +1,39 @@
+<style>
+  .custom-logo {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 60px;
+    z-index: 1000;
+  }
+
+  .page-header {
+    background: linear-gradient(to right, #5e2129, #a85c3d); /* бордовий+теплий */
+    color: #fff;
+  }
+
+  h1.project-name {
+    color: #fff !important;
+  }
+
+  h2.project-tagline {
+    color: #f9e9da !important;
+  }
+
+  body {
+    background-color: #fff8f3;
+  }
+
+  a {
+    color: #8b2c3a;
+  }
+
+  a:hover {
+    color: #c74b54;
+  }
+</style>
+
+<img src="logo.png" alt="Logo" class="custom-logo"/>
 ---
 layout: home
 author_profile: true
