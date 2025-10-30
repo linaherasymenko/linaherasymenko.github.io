@@ -79,6 +79,35 @@ body { background:#f6f1ed !important; }
   display: none !important;
 }
 
+/* ===== FORCE-HIDE SEARCH BAR/DRAWER IN MINIMAL MISTAKES ===== */
+.masthead .site-search,
+.masthead .search,
+.masthead .search__toggle,
+.masthead .search__drawer,
+.search__toggle,
+.search__drawer,
+.search-content,
+#site-search,
+#search,
+input[type="search"] {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  width: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: 0 !important;
+  overflow: hidden !important;
+}
+
+/* прибрати можливий додатковий відступ під шапкою */
+.masthead + .initial-content,
+.page__header + .initial-content {
+  margin-top: 0 !important;
+}
+
+/* на всяк випадок, якщо тема лишає контейнер пошуку порожнім */
+.masthead__inner-wrap .align-right { display: none !important; }
 
 
 /* === САЙДБАР === */
