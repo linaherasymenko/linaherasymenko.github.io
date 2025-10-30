@@ -71,6 +71,13 @@ body { background:#f6f1ed !important; }
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* hide site search on this page */
+.search__toggle,
+.search-content,
+.masthead .site-search,
+.masthead .search__drawer {
+  display: none !important;
+}
 
 
 
