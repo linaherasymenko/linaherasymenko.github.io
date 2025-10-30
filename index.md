@@ -13,102 +13,117 @@ kramdown:
 ---
 
 <style>
-/* === ФОН І ШАПКА === */
-body { background:#f6f1ed !important; }
-.masthead,
-.masthead__inner-wrap { background-color:#5e1a1a !important; }
+<style>
+/* === ФОН + ШАПКА === */
+body { background:#f6f1ed !important; }                 /* теплий пісочно-бежевий */
+.masthead, .masthead__inner-wrap { background:#5e1a1a !important; }  /* бордо */
+.masthead { box-shadow: 0 4px 14px rgba(0,0,0,.15); }
 .page__content { background:transparent !important; }
-  <img width="957" height="929" alt="image" src="https://github.com/user-attachments/assets/9d0bcd3d-e2fd-426d-87bb-b22778f3df76" />
-  /* === Центрування заголовку та підпису === */
-.page__title,
-.page__meta,
-.page__lead,
-.archive__item-title,
-.page__header {
-  text-align:center !important;
-}
 
-.page__title {
-  font-size:1.8rem !important;
-  font-weight:700 !important;
-  margin-bottom:0.3rem !important;
-}
-
-.page__lead {
-  display:block !important;
-  font-size:1.05rem !important;
-  color:#f8f4f2 !important;
-  letter-spacing:0.4px !important;
-  text-align:center !important;
-}
-  /* === Фінальне вирівнювання заголовку === */
-.page__title {
-  font-size: 2.1rem !important;
-  font-weight: 700 !important;
-  margin-bottom: 0.4rem !important; /* менший відступ під ім’ям */
-}
-
-.page__lead {
-  display: block !important;
-  text-align: center !important;
-  color: #f2e6e3 !important; /* тепліший і контрастніший відтінок */
-  font-size: 1.15rem !important;
-  font-weight: 500 !important;
-  letter-spacing: 0.3px !important;
-  line-height: 1.4 !important;
-  margin-top: 0 !important;
-}
-/* Тінь під бордовою шапкою */
-.masthead {
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
-}
-
-/* Трохи більший логотип */
-.author__avatar img {
-  width: 120px !important;
-  height: auto !important;
-  border-radius: 50% !important;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-}
-
-/* hide site search on this page */
-.search__toggle,
-.search-content,
-.masthead .site-search,
-.masthead .search__drawer {
-  display: none !important;
-}
-
-/* ===== FORCE-HIDE SEARCH BAR/DRAWER IN MINIMAL MISTAKES ===== */
+/* Прибрати пошук/порожній блок у шапці (щоб не було білої смуги) */
+.masthead input,
+.masthead form,
 .masthead .site-search,
 .masthead .search,
 .masthead .search__toggle,
 .masthead .search__drawer,
-.search__toggle,
-.search__drawer,
-.search-content,
-#site-search,
-#search,
-input[type="search"] {
-  display: none !important;
-  visibility: hidden !important;
-  height: 0 !important;
-  width: 0 !important;
-  padding: 0 !important;
-  margin: 0 !important;
-  border: 0 !important;
-  overflow: hidden !important;
-}
-
-/* прибрати можливий додатковий відступ під шапкою */
+.masthead .search-wrapper,
+.masthead .align-right { display:none !important; }
 .masthead + .initial-content,
-.page__header + .initial-content {
-  margin-top: 0 !important;
+.page__header + .initial-content { margin-top:0 !important; }
+
+/* === ЗАГОЛОВОК + ПІДПИС У ШАПЦІ (центр) === */
+.page__title,
+.page__meta,
+.page__lead,
+.archive__item-title,
+.page__header { text-align:center !important; }
+
+.page__title {
+  font-size: 2.1rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 0.4rem !important;
+}
+.page__lead {
+  display:block !important;
+  text-align:center !important;
+  color:#f2e6e3 !important;               /* світлий теплий на бордовому */
+  font-size:1.15rem !important;
+  font-weight:500 !important;
+  letter-spacing:0.3px !important;
+  line-height:1.4 !important;
+  margin-top:0 !important;
 }
 
-/* на всяк випадок, якщо тема лишає контейнер пошуку порожнім */
-.masthead__inner-wrap .align-right { display: none !important; }
-https://linaherasymenko.github.io/?v=8
+/* === САЙДБАР: АВАТАР + КОНТАКТИ === */
+.author__avatar img{
+  width:120px !important;                 /* трохи більший логотип */
+  height:auto !important;
+  border-radius:50% !important;
+  box-shadow:0 3px 10px rgba(0,0,0,.1);
+}
+.author__urls a{
+  color:#7a2431 !important;
+  font-weight:700 !important;
+  font-size:1.15rem !important;
+  letter-spacing:0.3px !important;
+  display:inline-block !important;
+  margin-bottom:6px !important;
+}
+.author__urls a:hover{ color:#5e1a1a !important; text-decoration:underline !important; }
+
+/* === ШИРИНА КОНТЕНТУ === */
+.page .page__inner-wrap { max-width:1320px !important; }
+
+/* === КАРТКИ ПРОЄКТІВ — більші і з повітрям === */
+.project-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(420px, 1fr)); /* ширші картки */
+  gap:36px;                                     /* більше відстані між блоками */
+  margin-top:1.8rem;
+}
+.project-card{
+  background:#fff;
+  border:1px solid #e7e3e9;
+  border-radius:18px;
+  box-shadow:0 8px 22px rgba(24,16,32,.06), 0 2px 6px rgba(24,16,32,.04);
+  transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+  overflow:hidden;
+  padding-bottom:4px;
+}
+.project-card:hover{
+  transform:translateY(-4px);
+  box-shadow:0 16px 36px rgba(24,16,32,.12), 0 4px 12px rgba(24,16,32,.06);
+  border-color:#d6c9d4;
+}
+.project-card img{
+  width:100%;
+  height:300px;                                /* вище прев’ю */
+  object-fit:cover;
+  display:block;
+  background:#faf9fb;
+}
+.project-card-content{ padding:22px 22px 26px; }
+.project-card-content h3{
+  margin:0 0 10px;
+  font-size:1.25rem;
+  line-height:1.4;
+  color:#2e2a30;
+}
+.project-card-content p{
+  font-size:1rem;
+  color:#524d57;
+  margin:6px 0 0;
+}
+
+/* === РОЗДІЛЮВАЧІ === */
+.page__content hr{
+  border:0;
+  height:1px;
+  background:#e9e4ee;
+  margin:24px 0;
+}
+</style>
 
 
 /* === САЙДБАР === */
