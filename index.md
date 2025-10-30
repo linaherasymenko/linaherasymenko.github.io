@@ -41,6 +41,24 @@ body { background:#f6f1ed !important; }
   letter-spacing:0.4px !important;
   text-align:center !important;
 }
+  /* === Фінальне вирівнювання заголовку === */
+.page__title {
+  font-size: 2.1rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 0.4rem !important; /* менший відступ під ім’ям */
+}
+
+.page__lead {
+  display: block !important;
+  text-align: center !important;
+  color: #f2e6e3 !important; /* тепліший і контрастніший відтінок */
+  font-size: 1.15rem !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.3px !important;
+  line-height: 1.4 !important;
+  margin-top: 0 !important;
+}
+
 
 
 
