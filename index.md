@@ -58,6 +58,18 @@ body { background:#f6f1ed !important; }
   line-height: 1.4 !important;
   margin-top: 0 !important;
 }
+/* Тінь під бордовою шапкою */
+.masthead {
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+/* Трохи більший логотип */
+.author__avatar img {
+  width: 120px !important;
+  height: auto !important;
+  border-radius: 50% !important;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
 
 
 
