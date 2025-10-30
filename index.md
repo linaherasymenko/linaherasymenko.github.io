@@ -1,9 +1,10 @@
 ---
 layout: single
-title: ""   # уникаємо дубля імені в шапці
+title: ""   # без дубля імені
 excerpt: "Data Analyst Portfolio – Dashboards, Tableau, Google Sheets & Excel, Power BI, SQL"
 author_profile: true
 classes: wide
+breadcrumbs: false
 header:
   overlay_color: "#5e1a1a"
 markdown: kramdown
@@ -12,39 +13,32 @@ kramdown:
 ---
 
 <style>
-/* Теплий фон сторінки та масхед */
+/* Теплий фон + колір шапки */
 body { background:#f6f1ed; }
-.masthead { background-color:#5e1a1a; } /* прибирає білу смугу зверху */
+.masthead { background-color:#5e1a1a; }
 .page__content { background:transparent; }
 
 /* Сайдбар: аватар і контакти */
 .author__avatar img{
-  width:110px;     /* акуратно, без розтягування */
-  height:auto;
-  border-radius:50%;
+  width:110px; height:auto; border-radius:50%;
 }
 .author__urls a{
-  color:#7c2f3b;
-  font-weight:600;
-  font-size:1.05rem;
-  letter-spacing:0.3px;
+  color:#7c2f3b; font-weight:700; font-size:1.1rem; letter-spacing:0.2px;
 }
 .author__urls a:hover{ color:#5e1a1a; text-decoration:underline; }
 
-/* Контейнер контенту ширший */
-.container-wide{ max-width:1200px; margin:0 auto; padding:0 20px 28px; }
+/* Контент ширше */
+.container-wide{ max-width:1240px; margin:0 auto; padding:0 20px 28px; }
 
-/* Картки проєктів */
+/* Картки проєктів — більші */
 .project-grid{
   display:grid;
-  grid-template-columns:repeat(auto-fit, minmax(360px, 1fr));
-  gap:26px;
+  grid-template-columns:repeat(auto-fit, minmax(380px, 1fr));
+  gap:28px;
   margin-top:1.25rem;
 }
 .project-card{
-  background:#fff;
-  border:1px solid #e7e3e9;
-  border-radius:16px;
+  background:#fff; border:1px solid #e7e3e9; border-radius:16px;
   box-shadow:0 8px 22px rgba(24,16,32,.06), 0 2px 6px rgba(24,16,32,.04);
   transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;
   overflow:hidden;
@@ -55,16 +49,12 @@ body { background:#f6f1ed; }
   border-color:#dccfe2;
 }
 .project-card img{
-  width:100%;
-  height:230px; /* зробити крупнішими — підніми до 250–260 */
-  object-fit:cover;
-  display:block;
-  background:#faf9fb;
+  width:100%; height:260px; object-fit:cover; display:block; background:#faf9fb;
 }
 .project-card-content{ padding:16px 18px 18px; }
-.project-card-content h3{ margin:0 0 8px; font-size:1.08rem; line-height:1.35; color:#2e2a30; }
-.project-card-content p{ font-size:.95rem; color:#524d57; margin:6px 0 0; }
-.project-card-content a{ color:#8f3d4a; text-decoration:none; font-weight:600; }
+.project-card-content h3{ margin:0 0 8px; font-size:1.1rem; line-height:1.35; color:#2e2a30; }
+.project-card-content p{ font-size:.96rem; color:#524d57; margin:6px 0 0; }
+.project-card-content a{ color:#8f3d4a; text-decoration:none; font-weight:700; }
 .project-card-content a:hover{ text-decoration:underline; }
 
 /* Розділювачі */
