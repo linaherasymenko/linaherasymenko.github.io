@@ -1,7 +1,7 @@
 ---
-layout: home
+layout: single
 title: "Lina Herasymenko"
-excerpt: "Data Analyst Portfolio – Dashboards, Tableau, Power BI, SQL"
+excerpt: "Data Analyst Portfolio – Dashboards, Tableau, Google Sheets & Excel, Power BI, SQL"
 author_profile: true
 classes: wide
 header:
@@ -12,73 +12,51 @@ kramdown:
 ---
 
 <style>
-/* Page background + typography tweaks (scoped to this page) */
-body { background:#f7f6f8; }
+/* Теплий фон сторінки + прозорий контентний фон */
+body { background:#f6f1ed; }              /* теплий айворі */
 .page__content { background: transparent; }
 
-/* Wider container only for this page */
-.container-wide {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px 28px;
-}
+/* Сайдбар: більший аватар + виразні контакти */
+.author__avatar img { width:128px; height:128px; border-radius:50%; }
+.author__urls a { color:#8f3d4a; font-weight:600; }
+.author__urls a:hover { text-decoration: underline; }
 
-/* Project cards grid */
+/* Контейнер ширший */
+.container-wide { max-width:1200px; margin:0 auto; padding:0 20px 28px; }
+
+/* Сітка карток */
 .project-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-  gap: 26px;
-  margin-top: 1.25rem;
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(360px, 1fr));
+  gap:26px;
+  margin-top:1.25rem;
 }
 
-/* Card */
-.project-card {
-  background: #ffffff;
-  border: 1px solid #e7e3e9;
-  border-radius: 16px;
-  box-shadow: 0 8px 22px rgba(24, 16, 32, .06), 0 2px 6px rgba(24,16,32,.04);
-  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
-  overflow: hidden;
+/* Картка */
+.project-card{
+  background:#fff;
+  border:1px solid #e7e3e9;
+  border-radius:16px;
+  box-shadow:0 8px 22px rgba(24,16,32,.06), 0 2px 6px rgba(24,16,32,.04);
+  transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+  overflow:hidden;
 }
-.project-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 14px 34px rgba(24,16,32,.12), 0 4px 10px rgba(24,16,32,.06);
+.project-card:hover{
+  transform:translateY(-3px);
+  box-shadow:0 14px 34px rgba(24,16,32,.12), 0 4px 10px rgba(24,16,32,.06);
   border-color:#dccfe2;
 }
+.project-card img{
+  width:100%; height:230px; object-fit:cover; display:block; background:#faf9fb;
+}
+.project-card-content{ padding:16px 18px 18px; }
+.project-card-content h3{ margin:0 0 8px; font-size:1.08rem; line-height:1.35; color:#2e2a30; }
+.project-card-content p{ font-size:.95rem; color:#524d57; margin:6px 0 0; }
+.project-card-content a{ color:#8f3d4a; text-decoration:none; font-weight:600; }
+.project-card-content a:hover{ text-decoration:underline; }
 
-/* Card media */
-.project-card img {
-  width: 100%;
-  height: 230px;           /* ↑ трохи вища картинка */
-  object-fit: cover;
-  display: block;
-  background:#faf9fb;
-}
-
-/* Card content */
-.project-card-content {
-  padding: 16px 18px 18px;
-}
-.project-card-content h3 {
-  margin: 0 0 8px;
-  font-size: 1.08rem;
-  line-height: 1.35;
-  color: #2e2a30;
-}
-.project-card-content p {
-  font-size: .95rem;
-  color: #524d57;
-  margin: 6px 0 0;
-}
-.project-card-content a {
-  color: #8f3d4a;          /* теплий бордовий під шапку */
-  text-decoration: none;
-  font-weight: 600;
-}
-.project-card-content a:hover { text-decoration: underline; }
-
-/* Section separators look lighter on the new background */
-.page__content hr { border: 0; height: 1px; background: #e9e4ee; margin: 24px 0; }
+/* Розділювачі на теплому фоні */
+.page__content hr{ border:0; height:1px; background:#e9e4ee; margin:24px 0; }
 </style>
 
 <div class="container-wide" markdown="1">
@@ -148,19 +126,4 @@ My focus is on **data visualization, reporting, and delivering insights** that s
     <div class="project-card-content">
       <h3>💳 Sales & Payment – Power BI</h3>
       <p>Power BI dashboard for payments, sales and revenue performance by segment.  
-      <br><strong>Tools:</strong> Power BI, Excel  
-      <br><a href="https://github.com/linaherasymenko/Sales-Payment-Analysis-Dashboard-Power-BI-">View on GitHub →</a></p>
-    </div>
-  </div>
-
-</div>
-
----
-
-## 🌱 Currently Learning
-
-- Advanced Power BI techniques  
-- Python for data pipelines  
-- English for Data Analytics
-
-</div>
+      <br><strong>Tools:</strong> Power
