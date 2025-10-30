@@ -2,7 +2,8 @@
 layout: home
 title: "Lina Herasymenko"
 excerpt: "Data Analyst Portfolio – Dashboards, Tableau, Power BI, SQL"
-author_profile: true
+author_profile: false
+classes: wide
 header:
   overlay_color: "#5e1a1a"
 markdown: kramdown
@@ -12,7 +13,7 @@ kramdown:
 
 <style>
 /* ==== Grid + Cards ==== */
-.container-narrow{max-width:1100px;margin:0 auto;padding:0 16px;}
+.container-narrow{max-width:1200px;margin:0 auto;padding:0 16px;}
 .grid{display:grid;gap:16px;}
 .grid.cols-3{grid-template-columns:repeat(3,minmax(0,1fr));}
 .grid.cols-2{grid-template-columns:repeat(2,minmax(0,1fr));}
@@ -90,10 +91,8 @@ My focus is on **data visualization, reporting, and delivering insights** that s
 ---
 
 ### 💼 Visual Summary (Grid View)
+{% include feature_row id="projects" type="grid" %}
 
-{% raw %}{% include feature_row id="projects" type="grid" %}{% endraw %}
-
----
 
 ## 🧪 A/B Test Case Study
 
