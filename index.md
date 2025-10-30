@@ -16,10 +16,10 @@ My focus is on **data visualization, reporting, and delivering insights** that s
 
 ## 🛠 Skills
 
-- **Tableau & Looker Studio** (interactive dashboards, visual storytelling)  
-- **Power BI** (business reporting & performance tracking)  
-- **Google Sheets & Excel** (data cleaning, automation, reporting)  
-- **BigQuery & SQL** (for data preparation and analysis)  
+- **Tableau & Looker Studio** – interactive dashboards, visual storytelling  
+- **Power BI** – business reporting & performance tracking  
+- **Google Sheets & Excel** – data cleaning, automation, reporting  
+- **BigQuery & SQL** – data extraction and transformation  
 
 ---
 
@@ -33,7 +33,13 @@ My focus is on **data visualization, reporting, and delivering insights** that s
 
 ---
 
-### 🧪 A/B Test Case Study
+### 💼 Visual Summary (Grid View)
+
+{% include feature_row id="projects" type="grid" %}
+
+---
+
+## 🧪 A/B Test Case Study
 
 ![Test Results](https://github.com/linaherasymenko/ab-test-discount-subscription/blob/main/test_results.png?raw=true)
 
@@ -45,7 +51,7 @@ Analyzed the impact of a 50% discount on user conversions using Python and stati
 
 ---
 
-### 📉 Revenue Analysis Dashboard – Tableau
+## 📉 Revenue Analysis Dashboard – Tableau
 
 ![Revenue](https://github.com/linaherasymenko/tableau-revenue-analysis-dashboard/blob/main/revenue_new.png?raw=true)
 
@@ -57,7 +63,7 @@ Interactive Tableau dashboard showing monthly revenue trends by region and categ
 
 ---
 
-### 📈 User Activity Analysis – Google Sheets
+## 📈 User Activity Analysis – Google Sheets
 
 ![User Activity](https://github.com/linaherasymenko/user-retention-activity-analysis/blob/main/weekly_dauwau_dynamics.png?raw=true)
 
@@ -69,7 +75,7 @@ Used Google Sheets to analyze activity patterns using Google Sheets and custom f
 
 ---
 
-### 🛒 E-commerce Funnel (Looker Studio + BigQuery)
+## 🛒 E-commerce Funnel (Looker Studio + BigQuery)
 
 ![Ecommerce Funnel](https://github.com/linaherasymenko/E-commerce-Conversion-Analysis-Looker-Studio-BigQuery-/blob/main/ecommerce_funnel.png?raw=true)
 
@@ -81,7 +87,7 @@ Created an ecommerce funnel for analyzing funnel drop-offs and conversions.
 
 ---
 
-### 💳 Sales & Payment Dashboard – Power BI
+## 💳 Sales & Payment Dashboard – Power BI
 
 ![Power BI](https://github.com/linaherasymenko/Sales-Payment-Analysis-Dashboard-Power-BI-/blob/main/sales_payment_power_BI.png?raw=true)
 
