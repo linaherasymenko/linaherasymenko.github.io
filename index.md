@@ -19,6 +19,29 @@ body { background:#f6f1ed !important; }
 .masthead__inner-wrap { background-color:#5e1a1a !important; }
 .page__content { background:transparent !important; }
   <img width="957" height="929" alt="image" src="https://github.com/user-attachments/assets/9d0bcd3d-e2fd-426d-87bb-b22778f3df76" />
+  /* === Центрування заголовку та підпису === */
+.page__title,
+.page__meta,
+.page__lead,
+.archive__item-title,
+.page__header {
+  text-align:center !important;
+}
+
+.page__title {
+  font-size:1.8rem !important;
+  font-weight:700 !important;
+  margin-bottom:0.3rem !important;
+}
+
+.page__lead {
+  display:block !important;
+  font-size:1.05rem !important;
+  color:#f8f4f2 !important;
+  letter-spacing:0.4px !important;
+  text-align:center !important;
+}
+
 
 
 /* === САЙДБАР === */
