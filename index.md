@@ -13,7 +13,6 @@ kramdown:
 ---
 
 <style>
-<style>
 /* === ФОН + ШАПКА === */
 body { background:#f6f1ed !important; }                 /* теплий пісочно-бежевий */
 .masthead, .masthead__inner-wrap { background:#5e1a1a !important; }  /* бордо */
