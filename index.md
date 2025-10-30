@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Lina Herasymenko"
+title: ""   # уникаємо дубля імені в шапці
 excerpt: "Data Analyst Portfolio – Dashboards, Tableau, Google Sheets & Excel, Power BI, SQL"
 author_profile: true
 classes: wide
@@ -12,27 +12,35 @@ kramdown:
 ---
 
 <style>
-/* Теплий фон сторінки + прозорий контентний фон */
-body { background:#f6f1ed; }              /* теплий айворі */
-.page__content { background: transparent; }
+/* Теплий фон сторінки та масхед */
+body { background:#f6f1ed; }
+.masthead { background-color:#5e1a1a; } /* прибирає білу смугу зверху */
+.page__content { background:transparent; }
 
-/* Сайдбар: більший аватар + виразні контакти */
-.author__avatar img { width:128px; height:128px; border-radius:50%; }
-.author__urls a { color:#8f3d4a; font-weight:600; }
-.author__urls a:hover { text-decoration: underline; }
+/* Сайдбар: аватар і контакти */
+.author__avatar img{
+  width:110px;     /* акуратно, без розтягування */
+  height:auto;
+  border-radius:50%;
+}
+.author__urls a{
+  color:#7c2f3b;
+  font-weight:600;
+  font-size:1.05rem;
+  letter-spacing:0.3px;
+}
+.author__urls a:hover{ color:#5e1a1a; text-decoration:underline; }
 
-/* Контейнер ширший */
-.container-wide { max-width:1200px; margin:0 auto; padding:0 20px 28px; }
+/* Контейнер контенту ширший */
+.container-wide{ max-width:1200px; margin:0 auto; padding:0 20px 28px; }
 
-/* Сітка карток */
-.project-grid {
+/* Картки проєктів */
+.project-grid{
   display:grid;
   grid-template-columns:repeat(auto-fit, minmax(360px, 1fr));
   gap:26px;
   margin-top:1.25rem;
 }
-
-/* Картка */
 .project-card{
   background:#fff;
   border:1px solid #e7e3e9;
@@ -47,7 +55,11 @@ body { background:#f6f1ed; }              /* теплий айворі */
   border-color:#dccfe2;
 }
 .project-card img{
-  width:100%; height:230px; object-fit:cover; display:block; background:#faf9fb;
+  width:100%;
+  height:230px; /* зробити крупнішими — підніми до 250–260 */
+  object-fit:cover;
+  display:block;
+  background:#faf9fb;
 }
 .project-card-content{ padding:16px 18px 18px; }
 .project-card-content h3{ margin:0 0 8px; font-size:1.08rem; line-height:1.35; color:#2e2a30; }
@@ -55,7 +67,7 @@ body { background:#f6f1ed; }              /* теплий айворі */
 .project-card-content a{ color:#8f3d4a; text-decoration:none; font-weight:600; }
 .project-card-content a:hover{ text-decoration:underline; }
 
-/* Розділювачі на теплому фоні */
+/* Розділювачі */
 .page__content hr{ border:0; height:1px; background:#e9e4ee; margin:24px 0; }
 </style>
 
@@ -126,4 +138,19 @@ My focus is on **data visualization, reporting, and delivering insights** that s
     <div class="project-card-content">
       <h3>💳 Sales & Payment – Power BI</h3>
       <p>Power BI dashboard for payments, sales and revenue performance by segment.  
-      <br><strong>Tools:</strong> Power
+      <br><strong>Tools:</strong> Power BI, Excel  
+      <br><a href="https://github.com/linaherasymenko/Sales-Payment-Analysis-Dashboard-Power-BI-">View on GitHub →</a></p>
+    </div>
+  </div>
+
+</div>
+
+---
+
+## 🌱 Currently Learning
+
+- Advanced Power BI techniques  
+- Python for data pipelines  
+- English for Data Analytics
+
+</div>
