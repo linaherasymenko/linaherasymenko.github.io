@@ -5,6 +5,7 @@ excerpt: "Data Analyst Portfolio – Dashboards, Tableau, Google Sheets & Excel,
 author_profile: true
 classes: wide
 breadcrumbs: false
+search: false
 header:
   overlay_color: "#5e1a1a"
 markdown: kramdown
@@ -14,193 +15,54 @@ kramdown:
 
 <style>
 /* === ФОН + ШАПКА === */
-body { background:#f6f1ed !important; }                 /* теплий пісочно-бежевий */
-.masthead, .masthead__inner-wrap { background:#5e1a1a !important; }  /* бордо */
-.masthead { box-shadow: 0 4px 14px rgba(0,0,0,.15); }
+body { background:#f6f1ed !important; }                    /* теплий фон */
+.masthead, .masthead__inner-wrap { background:#5e1a1a !important; }
+.masthead { box-shadow:0 4px 14px rgba(0,0,0,.15); }
 .page__content { background:transparent !important; }
 
-/* Прибрати пошук/порожній блок у шапці (щоб не було білої смуги) */
-.masthead input,
-.masthead form,
-.masthead .site-search,
-.masthead .search,
-.masthead .search__toggle,
-.masthead .search__drawer,
-.masthead .search-wrapper,
-.masthead .align-right { display:none !important; }
-.masthead + .initial-content,
-.page__header + .initial-content { margin-top:0 !important; }
+/* прибрати пошук/порожній блок у шапці */
+.masthead input, .masthead form,
+.masthead .site-search, .masthead .search,
+.masthead .search__toggle, .masthead .search__drawer,
+.masthead .search-wrapper, .masthead .align-right { display:none !important; }
+.masthead + .initial-content, .page__header + .initial-content { margin-top:0 !important; }
 
-/* === ЗАГОЛОВОК + ПІДПИС У ШАПЦІ (центр) === */
-.page__title,
-.page__meta,
-.page__lead,
-.archive__item-title,
-.page__header { text-align:center !important; }
+/* === ЗАГОЛОВОК + ПІДПИС (центр) === */
+.page__title, .page__meta, .page__lead, .archive__item-title, .page__header { text-align:center !important; }
+.page__title { font-size:2.1rem !important; font-weight:700 !important; margin-bottom:.4rem !important; }
+.page__lead  { display:block !important; color:#f2e6e3 !important; font-size:1.15rem !important;
+               font-weight:500 !important; letter-spacing:.3px !important; line-height:1.4 !important; margin-top:0 !important; }
 
-.page__title {
-  font-size: 2.1rem !important;
-  font-weight: 700 !important;
-  margin-bottom: 0.4rem !important;
-}
-.page__lead {
-  display:block !important;
-  text-align:center !important;
-  color:#f2e6e3 !important;               /* світлий теплий на бордовому */
-  font-size:1.15rem !important;
-  font-weight:500 !important;
-  letter-spacing:0.3px !important;
-  line-height:1.4 !important;
-  margin-top:0 !important;
-}
-
-/* === САЙДБАР: АВАТАР + КОНТАКТИ === */
-.author__avatar img{
-  width:120px !important;                 /* трохи більший логотип */
-  height:auto !important;
-  border-radius:50% !important;
-  box-shadow:0 3px 10px rgba(0,0,0,.1);
-}
-.author__urls a{
-  color:#7a2431 !important;
-  font-weight:700 !important;
-  font-size:1.15rem !important;
-  letter-spacing:0.3px !important;
-  display:inline-block !important;
-  margin-bottom:6px !important;
-}
+/* === САЙДБАР === */
+.author__avatar img{ width:120px !important; height:auto !important; border-radius:50% !important; box-shadow:0 3px 10px rgba(0,0,0,.1); }
+.author__urls a{ color:#7a2431 !important; font-weight:700 !important; font-size:1.15rem !important; letter-spacing:.3px !important;
+                 display:inline-block !important; margin-bottom:6px !important; }
 .author__urls a:hover{ color:#5e1a1a !important; text-decoration:underline !important; }
 
 /* === ШИРИНА КОНТЕНТУ === */
 .page .page__inner-wrap { max-width:1320px !important; }
 
-/* === КАРТКИ ПРОЄКТІВ — більші і з повітрям === */
+/* === КАРТКИ ПРОЄКТІВ — БІЛЬШІ + БІЛЬШЕ ВІДСТАНІ === */
 .project-grid{
   display:grid;
-  grid-template-columns:repeat(auto-fit, minmax(420px, 1fr)); /* ширші картки */
-  gap:36px;                                     /* більше відстані між блоками */
+  grid-template-columns:repeat(auto-fit, minmax(420px, 1fr));  /* ширші */
+  gap:36px;                                                    /* більше повітря */
   margin-top:1.8rem;
 }
 .project-card{
-  background:#fff;
-  border:1px solid #e7e3e9;
-  border-radius:18px;
+  background:#fff; border:1px solid #e7e3e9; border-radius:18px;
   box-shadow:0 8px 22px rgba(24,16,32,.06), 0 2px 6px rgba(24,16,32,.04);
   transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;
-  overflow:hidden;
-  padding-bottom:4px;
+  overflow:hidden; padding-bottom:4px;
 }
-.project-card:hover{
-  transform:translateY(-4px);
-  box-shadow:0 16px 36px rgba(24,16,32,.12), 0 4px 12px rgba(24,16,32,.06);
-  border-color:#d6c9d4;
-}
-.project-card img{
-  width:100%;
-  height:300px;                                /* вище прев’ю */
-  object-fit:cover;
-  display:block;
-  background:#faf9fb;
-}
+.project-card:hover{ transform:translateY(-4px); box-shadow:0 16px 36px rgba(24,16,32,.12), 0 4px 12px rgba(24,16,32,.06); border-color:#d6c9d4; }
+.project-card img{ width:100%; height:300px; object-fit:cover; display:block; background:#faf9fb; }
 .project-card-content{ padding:22px 22px 26px; }
-.project-card-content h3{
-  margin:0 0 10px;
-  font-size:1.25rem;
-  line-height:1.4;
-  color:#2e2a30;
-}
-.project-card-content p{
-  font-size:1rem;
-  color:#524d57;
-  margin:6px 0 0;
-}
+.project-card-content h3{ margin:0 0 10px; font-size:1.25rem; line-height:1.4; color:#2e2a30; }
+.project-card-content p{ font-size:1rem; color:#524d57; margin:6px 0 0; }
 
 /* === РОЗДІЛЮВАЧІ === */
-.page__content hr{
-  border:0;
-  height:1px;
-  background:#e9e4ee;
-  margin:24px 0;
-}
-</style>
-
-
-/* === САЙДБАР === */
-.author__avatar img{
-  width:110px !important;
-  height:auto !important;
-  border-radius:50% !important;
-  box-shadow:0 2px 8px rgba(0,0,0,.1);
-}
-.author__urls a{
-  color:#7a2431 !important;
-  font-weight:700 !important;
-  font-size:1.15rem !important;
-  letter-spacing:0.3px !important;
-  display:inline-block !important;
-  margin-bottom:6px !important;
-}
-.author__urls a:hover{
-  color:#5e1a1a !important;
-  text-decoration:underline !important;
-}
-
-/* === КОНТЕНТ === */
-.page .page__inner-wrap { max-width:1320px !important; }
-
-/* === КАРТКИ ПРОЄКТІВ === */
-.project-grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fit, minmax(400px, 1fr));
-  gap:28px;
-  margin-top:1.25rem;
-}
-.project-card{
-  background:#fff;
-  border:1px solid #e7e3e9;
-  border-radius:16px;
-  box-shadow:0 8px 22px rgba(24,16,32,.06), 0 2px 6px rgba(24,16,32,.04);
-  transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;
-  overflow:hidden;
-}
-.project-card:hover{
-  transform:translateY(-3px);
-  box-shadow:0 14px 34px rgba(24,16,32,.12), 0 4px 10px rgba(24,16,32,.06);
-  border-color:#dccfe2;
-}
-.project-card img{
-  width:100%;
-  height:280px;
-  object-fit:cover;
-  display:block;
-  background:#faf9fb;
-}
-.project-card-content{ padding:16px 18px 18px; }
-.project-card-content h3{
-  margin:0 0 8px;
-  font-size:1.15rem;
-  line-height:1.35;
-  color:#2e2a30;
-}
-.project-card-content p{
-  font-size:.97rem;
-  color:#524d57;
-  margin:6px 0 0;
-}
-.project-card-content a{
-  color:#8f3d4a;
-  text-decoration:none;
-  font-weight:700;
-}
-.project-card-content a:hover{ text-decoration:underline; }
-
-/* === РОЗДІЛЮВАЧІ === */
-.page__content hr{
-  border:0;
-  height:1px;
-  background:#e9e4ee;
-  margin:24px 0;
-}
+.page__content hr{ border:0; height:1px; background:#e9e4ee; margin:24px 0; }
 </style>
 
 <div class="container-wide" markdown="1">
