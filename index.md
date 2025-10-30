@@ -5,18 +5,23 @@ excerpt: "Data Analyst Portfolio – Dashboards, Tableau, Power BI, SQL"
 author_profile: true
 header:
   overlay_color: "#5e1a1a"
+markdown: kramdown
+kramdown:
+  parse_block_html: true
 ---
 
 <style>
-/* ==== Grid + Cards (portfolio) ==== */
-.container-narrow {max-width:1100px;margin:0 auto;padding:0 16px;}
+/* ==== Grid + Cards ==== */
+.container-narrow{max-width:1100px;margin:0 auto;padding:0 16px;}
 .grid{display:grid;gap:16px;}
 .grid.cols-3{grid-template-columns:repeat(3,minmax(0,1fr));}
 .grid.cols-2{grid-template-columns:repeat(2,minmax(0,1fr));}
 @media (max-width:1024px){.grid.cols-3{grid-template-columns:repeat(2,1fr);} }
 @media (max-width:680px){.grid.cols-3,.grid.cols-2{grid-template-columns:1fr;} }
 
-.card{background:#fff;border:1px solid #e9e9e9;border-radius:14px;padding:14px;box-shadow:0 2px 10px rgba(0,0,0,.04);transition:transform .15s,box-shadow .15s;overflow:hidden;text-decoration:none;color:inherit;display:block}
+.card{background:#fff;border:1px solid #e9e9e9;border-radius:14px;padding:14px;
+box-shadow:0 2px 10px rgba(0,0,0,.04);transition:transform .15s,box-shadow .15s;
+overflow:hidden;text-decoration:none;color:inherit;display:block}
 .card:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(0,0,0,.08);}
 .card h3{margin:0 0 8px;font-size:1.02rem;line-height:1.35}
 .card p{margin:6px 0 0;color:#555;font-size:.95rem}
