@@ -108,6 +108,7 @@ input[type="search"] {
 
 /* на всяк випадок, якщо тема лишає контейнер пошуку порожнім */
 .masthead__inner-wrap .align-right { display: none !important; }
+https://linaherasymenko.github.io/?v=8
 
 
 /* === САЙДБАР === */
