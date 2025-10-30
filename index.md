@@ -18,6 +18,8 @@ body { background:#f6f1ed !important; }
 .masthead,
 .masthead__inner-wrap { background-color:#5e1a1a !important; }
 .page__content { background:transparent !important; }
+  <img width="957" height="929" alt="image" src="https://github.com/user-attachments/assets/9d0bcd3d-e2fd-426d-87bb-b22778f3df76" />
+
 
 /* === САЙДБАР === */
 .author__avatar img{
