@@ -13,7 +13,7 @@ kramdown:
 
 <style>
 /* ==== Grid + Cards ==== */
-.container-narrow{max-width:1200px;margin:0 auto;padding:0 16px;}
+.container-narrow{max-width:1300px;margin:0 auto;padding:0 18px;}
 .grid{display:grid;gap:16px;}
 .grid.cols-3{grid-template-columns:repeat(3,minmax(0,1fr));}
 .grid.cols-2{grid-template-columns:repeat(2,minmax(0,1fr));}
