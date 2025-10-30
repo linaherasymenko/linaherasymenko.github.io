@@ -1,6 +1,6 @@
 ---
 layout: single
-title: ""  # прибирає дубль імені
+title: ""
 excerpt: "Data Analyst Portfolio – Dashboards, Tableau, Google Sheets & Excel, Power BI, SQL"
 author_profile: true
 classes: wide
@@ -13,35 +13,39 @@ kramdown:
 ---
 
 <style>
-/* ==== GLOBAL FIXES (форс-override теми) ==== */
+/* === ФОН І ШАПКА === */
 body { background:#f6f1ed !important; }
-.masthead { background-color:#5e1a1a !important; } /* верхня смуга */
+.masthead,
+.masthead__inner-wrap { background-color:#5e1a1a !important; }
 .page__content { background:transparent !important; }
 
-/* Сайдбар (аватар + посилання) */
-.sidebar .author__avatar img,
-.author__avatar img {
+/* === САЙДБАР === */
+.author__avatar img{
   width:110px !important;
   height:auto !important;
   border-radius:50% !important;
+  box-shadow:0 2px 8px rgba(0,0,0,.1);
 }
-.sidebar .author__urls a,
-.author__urls a {
-  color:#7c2f3b !important;
+.author__urls a{
+  color:#7a2431 !important;
   font-weight:700 !important;
-  font-size:1.1rem !important;
-  letter-spacing:0.2px !important;
+  font-size:1.15rem !important;
+  letter-spacing:0.3px !important;
+  display:inline-block !important;
+  margin-bottom:6px !important;
 }
-.sidebar .author__urls a:hover,
-.author__urls a:hover { color:#5e1a1a !important; text-decoration:underline !important; }
+.author__urls a:hover{
+  color:#5e1a1a !important;
+  text-decoration:underline !important;
+}
 
-/* Трохи ширше тіло сторінки */
-.page .page__inner-wrap { max-width:1240px !important; }
+/* === КОНТЕНТ === */
+.page .page__inner-wrap { max-width:1320px !important; }
 
-/* ==== КАРТКИ ПРОЄКТІВ ==== */
+/* === КАРТКИ ПРОЄКТІВ === */
 .project-grid{
   display:grid;
-  grid-template-columns:repeat(auto-fit, minmax(380px, 1fr));
+  grid-template-columns:repeat(auto-fit, minmax(400px, 1fr));
   gap:28px;
   margin-top:1.25rem;
 }
@@ -60,19 +64,37 @@ body { background:#f6f1ed !important; }
 }
 .project-card img{
   width:100%;
-  height:260px;
+  height:280px;
   object-fit:cover;
   display:block;
   background:#faf9fb;
 }
 .project-card-content{ padding:16px 18px 18px; }
-.project-card-content h3{ margin:0 0 8px; font-size:1.1rem; line-height:1.35; color:#2e2a30; }
-.project-card-content p{ font-size:.96rem; color:#524d57; margin:6px 0 0; }
-.project-card-content a{ color:#8f3d4a; text-decoration:none; font-weight:700; }
+.project-card-content h3{
+  margin:0 0 8px;
+  font-size:1.15rem;
+  line-height:1.35;
+  color:#2e2a30;
+}
+.project-card-content p{
+  font-size:.97rem;
+  color:#524d57;
+  margin:6px 0 0;
+}
+.project-card-content a{
+  color:#8f3d4a;
+  text-decoration:none;
+  font-weight:700;
+}
 .project-card-content a:hover{ text-decoration:underline; }
 
-/* Розділювачі на теплому фоні */
-.page__content hr{ border:0; height:1px; background:#e9e4ee; margin:24px 0; }
+/* === РОЗДІЛЮВАЧІ === */
+.page__content hr{
+  border:0;
+  height:1px;
+  background:#e9e4ee;
+  margin:24px 0;
+}
 </style>
 
 <div class="container-wide" markdown="1">
